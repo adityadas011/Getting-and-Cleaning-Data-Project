@@ -60,7 +60,7 @@ The variables in the tidydata.txt file are:
 - "FrequencyBodyAccelerometerJerk-Standard-Deviation-Z"       
 - "FrequencyBodyGyroscope-Mean-X"                             
 - "FrequencyBodyGyroscope-Mean-Y"                             
-- "FrequencyBodyGyroscope-Mean-Z"                             
+- "FrequencyBodyGyroscope-Mean-Z"                              
 - "FrequencyBodyGyroscope-Standard-Deviation-X"               
 - "FrequencyBodyGyroscope-Standard-Deviation-Y"               
 - "FrequencyBodyGyroscope-Standard-Deviation-Z"               
@@ -72,6 +72,9 @@ The variables in the tidydata.txt file are:
 - "FrequencyBodyGyroscopeMagnitude-Standard-Deviation"        
 - "FrequencyBodyGyroscopeJerkMagnitude-Mean"                  
 - "FrequencyBodyGyroscopeJerkMagnitude-Standard-Deviation"
+
+## Subjects
+- There are 30 subjects and are represented as subject IDs.
 
 ## Activity Labels
 
