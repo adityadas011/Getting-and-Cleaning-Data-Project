@@ -2,12 +2,13 @@
 This code book describes the variables, the data, and any transformations and work that was performed to clean up the data.
 
 ## Variables
+The variables in the tidydata.txt file are:
 
 [1] "Subject"                                                   
 [2] "Activity"                                                  
 [3] "TimeBodyAccelerometer-Mean-X"                              
 [4] "TimeBodyAccelerometer-Mean-Y"                              
-[5] "TimeBodyAccelerometer-Mean-Z"                              
+[5] "TimeBodyAccelerometer-Mean-Z"                           
 [6] "TimeBodyAccelerometer-Standard-Deviation-X"                
 [7] "TimeBodyAccelerometer-Standard-Deviation-Y"                
 [8] "TimeBodyAccelerometer-Standard-Deviation-Z"                
