@@ -73,6 +73,9 @@ The variables in the tidydata.txt file are:
 - "FrequencyBodyGyroscopeJerkMagnitude-Mean"                  
 - "FrequencyBodyGyroscopeJerkMagnitude-Standard-Deviation"
 
+There is time data from the accelerometer and the gyroscope of wearable devices, represented by the variables TimeBodyAccelorometer and TimeBodyGyroscope. The "Body" and "Gravity" are acceleration signals.
+There is also jerk data represented by the variables. The jerk and magnitude of the data are denoted by "Jerk" and "Magnitude" The frequency of the data is given by FrequencyBodyAccelerometer and FrequencyBodyGyroscope. X, Y, and Z denote the three axial directions. The mean and standard deviations are given for each variable.
+
 ## Subjects
 - There are 30 subjects and are represented as subject IDs.
 
