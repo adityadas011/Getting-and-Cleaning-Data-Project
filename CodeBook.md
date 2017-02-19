@@ -1,4 +1,82 @@
 # Code Book
 This code book describes the variables, the data, and any transformations and work that was performed to clean up the data.
 
-## hi
+## Variables
+
+[1] "Subject"                                                   
+[2] "Activity"                                                  
+[3] "TimeBodyAccelerometer-Mean-X"                              
+[4] "TimeBodyAccelerometer-Mean-Y"                              
+[5] "TimeBodyAccelerometer-Mean-Z"                              
+[6] "TimeBodyAccelerometer-Standard-Deviation-X"                
+[7] "TimeBodyAccelerometer-Standard-Deviation-Y"                
+[8] "TimeBodyAccelerometer-Standard-Deviation-Z"                
+[9] "TimeGravityAccelerometer-Mean-X"                           
+[10] "TimeGravityAccelerometer-Mean-Y"                           
+[11] "TimeGravityAccelerometer-Mean-Z"                           
+[12] "TimeGravityAccelerometer-Standard-Deviation-X"             
+[13] "TimeGravityAccelerometer-Standard-Deviation-Y"             
+[14] "TimeGravityAccelerometer-Standard-Deviation-Z"             
+[15] "TimeBodyAccelerometerJerk-Mean-X"                          
+[16] "TimeBodyAccelerometerJerk-Mean-Y"                          
+[17] "TimeBodyAccelerometerJerk-Mean-Z"                          
+[18] "TimeBodyAccelerometerJerk-Standard-Deviation-X"            
+[19] "TimeBodyAccelerometerJerk-Standard-Deviation-Y"            
+[20] "TimeBodyAccelerometerJerk-Standard-Deviation-Z"            
+[21] "TimeBodyGyroscope-Mean-X"                                  
+[22] "TimeBodyGyroscope-Mean-Y"                                  
+[23] "TimeBodyGyroscope-Mean-Z"                                  
+[24] "TimeBodyGyroscope-Standard-Deviation-X"                    
+[25] "TimeBodyGyroscope-Standard-Deviation-Y"                    
+[26] "TimeBodyGyroscope-Standard-Deviation-Z"                    
+[27] "TimeBodyGyroscopeJerk-Mean-X"                              
+[28] "TimeBodyGyroscopeJerk-Mean-Y"                              
+[29] "TimeBodyGyroscopeJerk-Mean-Z"                              
+[30] "TimeBodyGyroscopeJerk-Standard-Deviation-X"                
+[31] "TimeBodyGyroscopeJerk-Standard-Deviation-Y"                
+[32] "TimeBodyGyroscopeJerk-Standard-Deviation-Z"                
+[33] "TimeBodyAccelerometerMagnitude-Mean"                       
+[34] "TimeBodyAccelerometerMagnitude-Standard-Deviation"         
+[35] "TimeGravityAccelerometerMagnitude-Mean"                    
+[36] "TimeGravityAccelerometerMagnitude-Standard-Deviation"      
+[37] "TimeBodyAccelerometerJerkMagnitude-Mean"                   
+[38] "TimeBodyAccelerometerJerkMagnitude-Standard-Deviation"     
+[39] "TimeBodyGyroscopeMagnitude-Mean"                           
+[40] "TimeBodyGyroscopeMagnitude-Standard-Deviation"             
+[41] "TimeBodyGyroscopeJerkMagnitude-Mean"                       
+[42] "TimeBodyGyroscopeJerkMagnitude-Standard-Deviation"         
+[43] "FrequencyBodyAccelerometer-Mean-X"                         
+[44] "FrequencyBodyAccelerometer-Mean-Y"                         
+[45] "FrequencyBodyAccelerometer-Mean-Z"                         
+[46] "FrequencyBodyAccelerometer-Standard-Deviation-X"           
+[47] "FrequencyBodyAccelerometer-Standard-Deviation-Y"           
+[48] "FrequencyBodyAccelerometer-Standard-Deviation-Z"           
+[49] "FrequencyBodyAccelerometerJerk-Mean-X"                     
+[50] "FrequencyBodyAccelerometerJerk-Mean-Y"                     
+[51] "FrequencyBodyAccelerometerJerk-Mean-Z"                     
+[52] "FrequencyBodyAccelerometerJerk-Standard-Deviation-X"       
+[53] "FrequencyBodyAccelerometerJerk-Standard-Deviation-Y"       
+[54] "FrequencyBodyAccelerometerJerk-Standard-Deviation-Z"       
+[55] "FrequencyBodyGyroscope-Mean-X"                             
+[56] "FrequencyBodyGyroscope-Mean-Y"                             
+[57] "FrequencyBodyGyroscope-Mean-Z"                             
+[58] "FrequencyBodyGyroscope-Standard-Deviation-X"               
+[59] "FrequencyBodyGyroscope-Standard-Deviation-Y"               
+[60] "FrequencyBodyGyroscope-Standard-Deviation-Z"               
+[61] "FrequencyBodyAccelerometerMagnitude-Mean"                  
+[62] "FrequencyBodyAccelerometerMagnitude-Standard-Deviation"    
+[63] "FrequencyBodyAccelerometerJerkMagnitude-Mean"              
+[64] "FrequencyBodyAccelerometerJerkMagnitude-Standard-Deviation"
+[65] "FrequencyBodyGyroscopeMagnitude-Mean"                      
+[66] "FrequencyBodyGyroscopeMagnitude-Standard-Deviation"        
+[67] "FrequencyBodyGyroscopeJerkMagnitude-Mean"                  
+[68] "FrequencyBodyGyroscopeJerkMagnitude-Standard-Deviation"
+
+## Activity Labels
+
+WALKING:             subject was walking during the test
+WALKING_UPSTAIRS:    subject was walking up a staircase during the test
+WALKING_DOWNSTAIRS:  subject was walking down a staircase during the test
+SITTING:             subject was sitting during the test
+STANDING:            subject was standing during the test
+LAYING:              subject was laying down during the test
